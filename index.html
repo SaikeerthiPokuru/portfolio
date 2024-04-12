@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+ <header class="header">
+  <a href="#" class="logo" style="color: #0ef;">Saikeerthi P</a>
+  <i class='bx bx-menu' id="menu-icon"></i>
+  <!-- <i class='bx bx-x' id="menu-icon"></i> -->
+
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>  
+    <a href="#project">Project</a>
+    <!-- <a href="#portfolio">Portfolio</a> -->
+    <a href="#contact">Contact</a>
+  </nav>
+ </header>
+
+<!-- home section design -->
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>Saikeerthi</h1>
+    <h3>And I'm a <span class="multiple-text" id="typed-output"></span></h3>
+    <p>I am a Fullstack developer.Check out some of my work in the Projects section.I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+    <!-- <div class="social-media"></div>--><br></br><br></br>
+    <a href="https://publuu.com/flip-book/312884/723273" class="btn" target="_blank">Check CV</a href>
+  </div>
+  <!-- <a href="#" class="btn">Download CV</a> -->
+  <div class="home-img">
+    <img src="hom-img.png" alt="" style="height: 550px;width: 180%;">
+  </div>
+</section>
+
+<!-- about section design -->
+
+<section class="about" id="about">
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2><br>
+    <h3>Frontend Developer</h3><br></br>
+    <p>I am a Fullstack webdeveloper with a degree in Computer Science and Engineering. Check out some of my work in the Projects section. Skilled in HTML, CSS, JavaScript, MySQL, ReactJS, Java and Springboot. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+    <br></br>
+    <a href="#" class="btn">Read More</a>
+  </div>
+  <div class="skills">
+    <h1 style="font-size: 35px;margin-top: 10px;">Skills</h1><br></br>
+    <div class="row">
+      <ul>
+        <li class="btn">HTML</li>
+        <li class="btn">CSS</li>
+        <li class="btn">ReactJS</li>
+        <li class="btn">JavaScript</li>
+      </ul>
+      <ul>
+        <li class="btn">MySQL</li>
+        <li class="btn">Java</li>
+        <li class="btn"class="btn">Springboot</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- projects section design-->
+
+<section class="project" id="project">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="webapplication.jpg" alt="">
+      <div class="portfolio-layer">
+        <h1>Web Application</h1>
+        <p>In that application it gives overview about the Besant Technologies and the location ,Management contact list,And about the courses they are providing</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="women-safety.jpg" alt="">
+      <div class="portfolio-layer">
+        <h1>V With U</h1>
+        <p>It is a mobile application which is used to protect a women .It is a research based project,And it is real time application.When a girl feel dangourous around her surroundings this app will helpfull for the women.</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="municipal.jpg" alt=""style="width: 3960px;" >
+      <div class="portfolio-layer">
+        <h1>Municipal Services</h1>
+        <p>This project is all about creating android application for providing municipal services like garbage collection,
+          drainage problems, water problems in the surroundings.
+          (Login, Register, raise complaint, status of complaint, pay taxes, registration for certificates).
+    </p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="resume.webp" alt=""style="height: 370px;" >
+      <div class="portfolio-layer">
+        <h1>Online Resume Builder</h1>
+        <p>In that application it prepares a resume in a perfect formate, after giving all the details the user just need to download the pdf.It is the web application.</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact section design -->
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me Here</span></h2>
+
+  <form action="#">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Email Address">
+    </div>
+
+    <div class="input-box">
+      <input type="number" placeholder="Mobile Number">
+      <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Message Here!"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+<!-- footer Design -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>This is all about <span>Me</span></p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+  </div>
+
+</footer>
+<!-- scroll reveal -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- typed js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+
+<script src="portfolio.js"></script>
+
+
+</body>
+</html>
